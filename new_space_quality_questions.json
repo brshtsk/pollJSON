@@ -36,54 +36,46 @@
           "type": "boolean",
           "name": "question2",
           "title": "Хватает ли мест в аудиториях для всех студентов?",
-          "isRequired": true
         },
         {
           "type": "rating",
           "name": "question3",
           "title": "Оцените наличие, комфортность и функциональность мебели в аудиториях",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question4",
           "title": "Оцените оснащенность аудиторий всем необходимым оборудованием для проведения занятий: проекторами, экранами, розетки в аудитории и т.д., их работоспособность",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "boolean",
           "name": "question5",
           "title": "Работает ли Wi-Fi?",
-          "isRequired": true
         },
         {
           "type": "rating",
           "name": "question6",
           "title": "Оцените качество климатических условий в аудиториях: наличие системы кондиционирования и отопления, поддержание комфортной температуры и влажности",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question7",
           "title": "Оцените общее состояние аудиторий",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question8",
           "title": "Оцените инклюзивность аудиторий",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question9",
           "title": "Оцените качество уборки",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
@@ -101,77 +93,66 @@
           "type": "rating",
           "name": "question11",
           "title": "Оцените оснащенность кампуса элементами навигации",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question12",
           "title": "Оцените оснащенность кампуса элементами информирования: наличие и функциональность информационных стендов",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question13",
           "title": "Оцените наличие схем эвакуации",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question14",
           "title": "Оцените общее состояние ремонта пространств",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question15",
           "title": "Оцените наличие и состояние зон ожидания у аудиторий (например, диваны в коридоре)",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question16",
           "title": "Оцените наличие медицинского кабинета",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question17",
           "title": "Оцените время работы медицинского кабинета",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question18",
           "title": "Оцените количество уборных комнат в корпусе",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question19",
           "title": "Оцените состояние уборных комнат (наличие необходимых предметов гигиены, удобство)",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question20",
           "title": "Оцените инклюзивность внутренней среды",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question21",
           "title": "Оцените качество уборки",
-          "isRequired": true,
           "rateType": "smileys"
         }
       ],
@@ -184,48 +165,41 @@
           "type": "rating",
           "name": "question22",
           "title": "Оцените наличие коворкингов в корпусе (шумных и тихих)",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question23",
           "title": "Оцените оснащенность коворкингов необходимым оборудованием и мебелью",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question24",
           "title": "Оцените ремонт коворкингов",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question25",
           "title": "Оцените вместимость коворкингов",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "boolean",
           "name": "question26",
           "title": "Работает ли Wi-Fi?",
-          "isRequired": true
         },
         {
           "type": "rating",
           "name": "question27",
           "title": "Оцените качество климатических условий в коворкингах: наличие системы кондиционирования и отопления, поддержание комфортной температуры и влажности",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question28",
           "title": "Оцените режим работы коворкингов (доступ 24/7)",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
@@ -243,28 +217,24 @@
           "type": "rating",
           "name": "question30",
           "title": "Оцените состояние ремонта фасада",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question31",
           "title": "Оцените благоустройство внешней среды кампуса",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question32",
           "title": "Оцените зону для курения",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question33",
           "title": "Оцените инклюзивность среды",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
@@ -287,14 +257,12 @@
           "type": "rating",
           "name": "question36",
           "title": "Насколько часто лично вы пользуетесь любой спортивной инфраструктурой корпуса?",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question37",
           "title": "Оцените ваш уровень удовлетворенности качеством спортивной инфраструктуры корпуса",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
@@ -322,40 +290,34 @@
           "type": "boolean",
           "name": "question41",
           "title": "Есть ли у вас в корпусе столовая?",
-          "isRequired": true
         },
         {
           "type": "boolean",
           "name": "question42",
           "title": "Есть ли дополнительные пункты питания (кофейни, вендинговые автоматы)?",
-          "isRequired": true
         },
         {
           "type": "rating",
           "name": "question43",
           "title": "Оцените качество еды в дополнительных пунктах питания",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question44",
           "title": "Насколько загружена у вас столовая?",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question45",
           "title": "Оцените состояние мебели в столовой",
-          "isRequired": true,
           "rateType": "smileys"
         },
         {
           "type": "rating",
           "name": "question46",
           "title": "Оцените наличие раковин или антисептических средств у входа / поблизости",
-          "isRequired": true,
           "rateType": "smileys"
         }
       ],
