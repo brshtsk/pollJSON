@@ -1,328 +1,374 @@
 {
-  "locale": "ru",
-  "title": {
-    "ru": "Оцени кампус"
-  },
-  "logoPosition": "right",
-  "pages": [
+ "locale": "ru",
+ "title": {
+  "ru": "Оцени кампус"
+ },
+ "logoPosition": "right",
+ "pages": [
+  {
+   "name": "page1",
+   "elements": [
     {
-      "name": "page1",
-      "elements": [
-        {
-          "type": "radiogroup",
-          "name": "question1",
-          "title": "Выберите свой филиал НИУ ВШЭ",
-          "isRequired": true,
-          "choices": [
-            "Армянский п., 4",
-            "Мясницкая ул., 11",
-            "Мясницкая ул., 20",
-            "Покровский б., 11",
-            "Б. Трехсвятительский п., 3",
-            "Б. Ордынка ул., 47",
-            "Ст. Басманная ул., 21",
-            "Шаболовка ул., 26"
-          ],
-          "showOtherItem": true,
-          "otherText": "Другой (Указать)"
-        }
-      ],
-      "title": "Кампус"
-    },
-    {
-      "name": "page2",
-      "elements": [
-        {
-          "type": "boolean",
-          "name": "question2",
-          "title": "Хватает ли мест в аудиториях для всех студентов?"
-        },
-        {
-          "type": "rating",
-          "name": "question3",
-          "title": "Оцените наличие, комфортность и функциональность мебели в аудиториях",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question4",
-          "title": "Оцените оснащенность аудиторий всем необходимым оборудованием для проведения занятий: проекторами, экранами, розетки в аудитории и т.д., их работоспособность",
-          "rateType": "smileys"
-        },
-        {
-          "type": "boolean",
-          "name": "question5",
-          "title": "Работает ли Wi-Fi?"
-        },
-        {
-          "type": "rating",
-          "name": "question6",
-          "title": "Оцените качество климатических условий в аудиториях: наличие системы кондиционирования и отопления, поддержание комфортной температуры и влажности",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question7",
-          "title": "Оцените общее состояние аудиторий",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question8",
-          "title": "Оцените инклюзивность аудиторий",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question9",
-          "title": "Оцените качество уборки",
-          "rateType": "smileys"
-        },
-        {
-          "type": "comment",
-          "name": "question10",
-          "title": "Опишите опыт пользования аудиториями"
-        }
-      ],
-      "title": "Оценка аудиторий"
-    },
-    {
-      "name": "page3",
-      "elements": [
-        {
-          "type": "rating",
-          "name": "question11",
-          "title": "Оцените оснащенность кампуса элементами навигации",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question12",
-          "title": "Оцените оснащенность кампуса элементами информирования: наличие и функциональность информационных стендов",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question13",
-          "title": "Оцените наличие схем эвакуации",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question14",
-          "title": "Оцените общее состояние ремонта пространств",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question15",
-          "title": "Оцените наличие и состояние зон ожидания у аудиторий (например, диваны в коридоре)",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question16",
-          "title": "Оцените наличие медицинского кабинета",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question17",
-          "title": "Оцените время работы медицинского кабинета",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question18",
-          "title": "Оцените количество уборных комнат в корпусе",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question19",
-          "title": "Оцените состояние уборных комнат (наличие необходимых предметов гигиены, удобство)",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question20",
-          "title": "Оцените инклюзивность внутренней среды",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question21",
-          "title": "Оцените качество уборки",
-          "rateType": "smileys"
-        }
-      ],
-      "title": "Оценка кампуса"
-    },
-    {
-      "name": "page4",
-      "elements": [
-        {
-          "type": "rating",
-          "name": "question22",
-          "title": "Оцените наличие коворкингов в корпусе (шумных и тихих)",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question23",
-          "title": "Оцените оснащенность коворкингов необходимым оборудованием и мебелью",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question24",
-          "title": "Оцените ремонт коворкингов",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question25",
-          "title": "Оцените вместимость коворкингов",
-          "rateType": "smileys"
-        },
-        {
-          "type": "boolean",
-          "name": "question26",
-          "title": "Работает ли Wi-Fi?"
-        },
-        {
-          "type": "rating",
-          "name": "question27",
-          "title": "Оцените качество климатических условий в коворкингах: наличие системы кондиционирования и отопления, поддержание комфортной температуры и влажности",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question28",
-          "title": "Оцените режим работы коворкингов (доступ 24/7)",
-          "rateType": "smileys"
-        },
-        {
-          "type": "comment",
-          "name": "question29",
-          "title": "Опишите опыт пользования коворкингом"
-        }
-      ],
-      "title": "Оценка коворкингов"
-    },
-    {
-      "name": "page5",
-      "elements": [
-        {
-          "type": "rating",
-          "name": "question30",
-          "title": "Оцените состояние ремонта фасада",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question31",
-          "title": "Оцените благоустройство внешней среды кампуса",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question32",
-          "title": "Оцените зону для курения",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question33",
-          "title": "Оцените инклюзивность среды",
-          "rateType": "smileys"
-        },
-        {
-          "type": "comment",
-          "name": "question34",
-          "title": "Поделитесь своим опытом пользования средой кампуса (опишите проблемы или свои идеи по созданию комфортной среды)"
-        }
-      ],
-      "title": "Оценка внешней среды кампуса"
-    },
-    {
-      "name": "page6",
-      "elements": [
-        {
-          "type": "comment",
-          "name": "question35",
-          "title": "Какая спортивная инфраструктура имеется в корпусе? Если она присутствует, опишите, пожалуйста, ее характеристики и функционал"
-        },
-        {
-          "type": "rating",
-          "name": "question36",
-          "title": "Насколько часто лично вы пользуетесь любой спортивной инфраструктурой корпуса?",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question37",
-          "title": "Оцените ваш уровень удовлетворенности качеством спортивной инфраструктуры корпуса",
-          "rateType": "smileys"
-        },
-        {
-          "type": "comment",
-          "name": "question38",
-          "title": "Укажите, пожалуйста, что именно необходимо исправить в текущей спортивной инфраструктуре корпуса, если она имеется"
-        },
-        {
-          "type": "comment",
-          "name": "question39",
-          "title": "Пожалуйста, напишите, какие новые спортивные объекты вы бы хотели видеть в данном корпусе?"
-        },
-        {
-          "type": "comment",
-          "name": "question40",
-          "title": "Какими характеристиками должны обладать новые спортивные объекты, которые вы предложили в 5 вопросе?"
-        }
-      ],
-      "title": "Спортивная инфраструктура кампуса"
-    },
-    {
-      "name": "page7",
-      "elements": [
-        {
-          "type": "boolean",
-          "name": "question41",
-          "title": "Есть ли у вас в корпусе столовая?"
-        },
-        {
-          "type": "boolean",
-          "name": "question42",
-          "title": "Есть ли дополнительные пункты питания (кофейни, вендинговые автоматы)?"
-        },
-        {
-          "type": "rating",
-          "name": "question43",
-          "title": "Оцените качество еды в дополнительных пунктах питания",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question44",
-          "title": "Насколько загружена у вас столовая?",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question45",
-          "title": "Оцените состояние мебели в столовой",
-          "rateType": "smileys"
-        },
-        {
-          "type": "rating",
-          "name": "question46",
-          "title": "Оцените наличие раковин или антисептических средств у входа / поблизости",
-          "rateType": "smileys"
-        }
-      ],
-      "title": "Оценка питания и условий в столовой"
+     "type": "radiogroup",
+     "name": "question1",
+     "title": "Выберите свой филиал НИУ ВШЭ",
+     "isRequired": true,
+     "choices": [
+      "Армянский п., 4",
+      "Мясницкая ул., 11",
+      "Мясницкая ул., 20",
+      "Покровский б., 11",
+      "Б. Трехсвятительский п., 3",
+      "Б. Ордынка ул., 47",
+      "Ст. Басманная ул., 21",
+      "Шаболовка ул., 26"
+     ],
+     "showOtherItem": true,
+     "otherText": "Другой (Указать)"
     }
-  ],
-  "widthMode": "responsive"
+   ],
+   "title": "Кампус"
+  },
+  {
+   "name": "page2",
+   "elements": [
+    {
+     "type": "boolean",
+     "name": "question2",
+     "title": "Хватает ли мест в аудиториях для всех студентов?"
+    },
+    {
+     "type": "rating",
+     "name": "question3",
+     "title": "Оцените наличие, комфортность и функциональность мебели в аудиториях",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question4",
+     "title": "Оцените оснащенность аудиторий всем необходимым оборудованием для проведения занятий: проекторами, экранами, розетки в аудитории и т.д., их работоспособность",
+     "rateType": "smileys"
+    },
+    {
+     "type": "boolean",
+     "name": "question5",
+     "title": "Работает ли Wi-Fi?"
+    },
+    {
+     "type": "rating",
+     "name": "question6",
+     "title": "Оцените качество климатических условий в аудиториях: наличие системы кондиционирования и отопления, поддержание комфортной температуры и влажности",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question7",
+     "title": "Оцените общее состояние аудиторий",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question8",
+     "title": "Оцените инклюзивность аудиторий",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question9",
+     "title": "Оцените качество уборки",
+     "rateType": "smileys"
+    },
+    {
+     "type": "comment",
+     "name": "question10",
+     "title": "Опишите опыт пользования аудиториями"
+    },
+    {
+     "type": "radiogroup",
+     "name": "question47",
+     "title": "Приостановить опрос? (Нажмите эту кнопку, если не хотите проходить опрос дальше)",
+     "choices": [
+      "Да"
+     ]
+    }
+   ],
+   "title": "Оценка аудиторий"
+  },
+  {
+   "name": "page3",
+   "elements": [
+    {
+     "type": "rating",
+     "name": "question11",
+     "title": "Оцените оснащенность кампуса элементами навигации",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question12",
+     "title": "Оцените оснащенность кампуса элементами информирования: наличие и функциональность информационных стендов",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question13",
+     "title": "Оцените наличие схем эвакуации",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question14",
+     "title": "Оцените общее состояние ремонта пространств",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question15",
+     "title": "Оцените наличие и состояние зон ожидания у аудиторий (например, диваны в коридоре)",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question16",
+     "title": "Оцените наличие медицинского кабинета",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question17",
+     "title": "Оцените время работы медицинского кабинета",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question18",
+     "title": "Оцените количество уборных комнат в корпусе",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question19",
+     "title": "Оцените состояние уборных комнат (наличие необходимых предметов гигиены, удобство)",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question20",
+     "title": "Оцените инклюзивность внутренней среды",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question21",
+     "title": "Оцените качество уборки",
+     "rateType": "smileys"
+    },
+    {
+     "type": "radiogroup",
+     "name": "question48",
+     "title": "Приостановить опрос? (Нажмите эту кнопку, если не хотите проходить опрос дальше)",
+     "choices": [
+      "Да"
+     ]
+    }
+   ],
+   "title": "Оценка кампуса"
+  },
+  {
+   "name": "page4",
+   "elements": [
+    {
+     "type": "rating",
+     "name": "question22",
+     "title": "Оцените наличие коворкингов в корпусе (шумных и тихих)",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question23",
+     "title": "Оцените оснащенность коворкингов необходимым оборудованием и мебелью",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question24",
+     "title": "Оцените ремонт коворкингов",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question25",
+     "title": "Оцените вместимость коворкингов",
+     "rateType": "smileys"
+    },
+    {
+     "type": "boolean",
+     "name": "question26",
+     "title": "Работает ли Wi-Fi?"
+    },
+    {
+     "type": "rating",
+     "name": "question27",
+     "title": "Оцените качество климатических условий в коворкингах: наличие системы кондиционирования и отопления, поддержание комфортной температуры и влажности",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question28",
+     "title": "Оцените режим работы коворкингов (доступ 24/7)",
+     "rateType": "smileys"
+    },
+    {
+     "type": "comment",
+     "name": "question29",
+     "title": "Опишите опыт пользования коворкингом"
+    },
+    {
+     "type": "radiogroup",
+     "name": "question49",
+     "title": "Приостановить опрос? (Нажмите эту кнопку, если не хотите проходить опрос дальше)",
+     "choices": [
+      "Да"
+     ]
+    }
+   ],
+   "title": "Оценка коворкингов"
+  },
+  {
+   "name": "page5",
+   "elements": [
+    {
+     "type": "rating",
+     "name": "question30",
+     "title": "Оцените состояние ремонта фасада",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question31",
+     "title": "Оцените благоустройство внешней среды кампуса",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question32",
+     "title": "Оцените зону для курения",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question33",
+     "title": "Оцените инклюзивность среды",
+     "rateType": "smileys"
+    },
+    {
+     "type": "comment",
+     "name": "question34",
+     "title": "Поделитесь своим опытом пользования средой кампуса (опишите проблемы или свои идеи по созданию комфортной среды)"
+    },
+    {
+     "type": "radiogroup",
+     "name": "question50",
+     "title": "Приостановить опрос? (Нажмите эту кнопку, если не хотите проходить опрос дальше)",
+     "choices": [
+      "Да"
+     ]
+    }
+   ],
+   "title": "Оценка внешней среды кампуса"
+  },
+  {
+   "name": "page6",
+   "elements": [
+    {
+     "type": "comment",
+     "name": "question35",
+     "title": "Какая спортивная инфраструктура имеется в корпусе? Если она присутствует, опишите, пожалуйста, ее характеристики и функционал"
+    },
+    {
+     "type": "rating",
+     "name": "question36",
+     "title": "Насколько часто лично вы пользуетесь любой спортивной инфраструктурой корпуса?",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question37",
+     "title": "Оцените ваш уровень удовлетворенности качеством спортивной инфраструктуры корпуса",
+     "rateType": "smileys"
+    },
+    {
+     "type": "comment",
+     "name": "question38",
+     "title": "Укажите, пожалуйста, что именно необходимо исправить в текущей спортивной инфраструктуре корпуса, если она имеется"
+    },
+    {
+     "type": "comment",
+     "name": "question39",
+     "title": "Пожалуйста, напишите, какие новые спортивные объекты вы бы хотели видеть в данном корпусе?"
+    },
+    {
+     "type": "comment",
+     "name": "question40",
+     "title": "Какими характеристиками должны обладать новые спортивные объекты, которые вы предложили в 5 вопросе?"
+    },
+    {
+     "type": "radiogroup",
+     "name": "question51",
+     "title": "Приостановить опрос? (Нажмите эту кнопку, если не хотите проходить опрос дальше)",
+     "choices": [
+      "Да"
+     ]
+    }
+   ],
+   "title": "Спортивная инфраструктура кампуса"
+  },
+  {
+   "name": "page7",
+   "elements": [
+    {
+     "type": "boolean",
+     "name": "question41",
+     "title": "Есть ли у вас в корпусе столовая?"
+    },
+    {
+     "type": "boolean",
+     "name": "question42",
+     "title": "Есть ли дополнительные пункты питания (кофейни, вендинговые автоматы)?"
+    },
+    {
+     "type": "rating",
+     "name": "question43",
+     "title": "Оцените качество еды в дополнительных пунктах питания",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question44",
+     "title": "Насколько загружена у вас столовая?",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question45",
+     "title": "Оцените состояние мебели в столовой",
+     "rateType": "smileys"
+    },
+    {
+     "type": "rating",
+     "name": "question46",
+     "title": "Оцените наличие раковин или антисептических средств у входа / поблизости",
+     "rateType": "smileys"
+    }
+   ],
+   "title": "Оценка питания и условий в столовой"
+  }
+ ],
+ "triggers": [
+  {
+   "type": "complete",
+   "expression": "{question51} = 'Да' or {question50} = 'Да' or {question49} = 'Да' or {question48} = 'Да' or {question47} = 'Да'"
+  }
+ ],
+ "widthMode": "responsive"
 }
